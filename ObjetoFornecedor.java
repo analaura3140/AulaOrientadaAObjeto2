@@ -16,6 +16,8 @@ public class ObjetoFornecedor {
 		fornecedor1.setInscricaoEstadual("Privado");
 
 		fornecedor1.exibirFornecedor();
+		fornecedor1.aberto();
 	}
 
 }
+
