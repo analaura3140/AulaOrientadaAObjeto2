@@ -10,13 +10,11 @@ public class ObjetoUsuario {
 		usuario1.setId(1);
 		usuario1.setNome("Nayara");
 		usuario1.setPassword(123);
-		usuario1.setPermissao("Tem permissão");
 		usuario1.setUsuario("@naynay");
 
 		usuario2.setId(2);
 		usuario2.setNome("Laura");
 		usuario2.setPassword(231);
-		usuario2.setPermissao("Não tem permissão");
 		usuario2.setUsuario("@laulau");
 		
 		usuario1.exibirUsuario();
@@ -26,3 +24,4 @@ public class ObjetoUsuario {
 	}
 
 }
+
