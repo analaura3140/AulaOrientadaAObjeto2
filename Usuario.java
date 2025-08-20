@@ -44,9 +44,10 @@ public class Usuario {
 		System.out.println("O ID é: " + id);
 		System.out.println("O nome é: " + nome);
 		System.out.println("O password é: " + password);
-		System.out.println("A permissão é: " + permissao);
+		System.out.println((password==123)?"Tem permissão" : "Não tem permissão");
 		System.out.println("O usuario é: " + usuario);
 	}
 	
 	
 }
+
