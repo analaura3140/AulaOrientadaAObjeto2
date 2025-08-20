@@ -71,4 +71,8 @@ public class Fornecedor {
 		System.out.println("O email é: " + email);
 		System.out.println("A inscrição estadual é: " + inscricaoEstadual);
 	}
+
+		public void aberto() {
+		System.out.println("Está aberto");
+	}
 }
